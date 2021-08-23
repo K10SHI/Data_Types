@@ -1,0 +1,10 @@
+module enum_datatype;
+  //declaration
+  enum { red=0, green=1, blue=4, yellow, white=5, black=6 } Colors;
+   
+  initial begin
+    Colors = Colors.first;
+    for(int i=0;i<6;i++)
+      $display("Colors  ::  Value of  %0s is = %0d",Colors.name(),Colors);
+  end
+endmodule
