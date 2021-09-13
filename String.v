@@ -1,12 +1,6 @@
-string declaration examples:
-      string             s1    =   "Hellow World";
-      string             s2    =   {"Hi"," ",s1};
-      bit [31:0]         b      =   128;
-      string             s3    =   b;      // sets 128 to s3
-
-      module string_datatype;
+module string_datatype;
    //declaration
-   string s1 = "Hello World";
+   String s1 = "Hello World";
    string s2 = {"Hi,"," ",s1};
    bit[31:0]b= 128;
    string s3 = b; // sets 128 to s3

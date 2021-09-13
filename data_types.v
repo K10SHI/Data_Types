@@ -1,4 +1,5 @@
 module data_types();
+
 bit       data_1bit;
 byte      data_8bit;
 shortint  data_16bit;
